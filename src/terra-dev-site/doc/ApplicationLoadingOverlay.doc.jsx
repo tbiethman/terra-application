@@ -3,7 +3,7 @@ import DocTemplate from 'terra-doc-template';
 import { name } from '../../../package.json';
 import ReadMe from './ApplicationLoadingOverlay.md';
 
-import ApplicationLoadingOverlayExampleSrc from '!raw-loader!./example/ApplicationLoadingOverlayExample.jsx';
+import ApplicationLoadingOverlayExampleSrc from '!raw-loader!../../../src/terra-dev-site/doc/example/ApplicationLoadingOverlayExample.jsx';
 import ApplicationLoadingOverlayExample from './example/ApplicationLoadingOverlayExample';
 
 const DocPage = () => (

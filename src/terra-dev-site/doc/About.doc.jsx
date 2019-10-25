@@ -4,7 +4,7 @@ import { name } from '../../../package.json';
 import About from './About.md';
 
 import ApplicationBaseSrc from '!raw-loader!../../../src/application-base/ApplicationBase.jsx';
-import ApplicationBaseExampleSrc from '!raw-loader!../../../src/application-base/terra-dev-site/doc/example/ApplicationBaseExample.jsx';
+import ApplicationBaseExampleSrc from '!raw-loader!../../../src/terra-dev-site/doc/example/ApplicationBaseExample.jsx';
 import ApplicationBaseExample from './example/ApplicationBaseExample';
 
 const DocPage = () => (
