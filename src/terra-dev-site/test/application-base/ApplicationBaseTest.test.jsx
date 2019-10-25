@@ -1,9 +1,9 @@
 import React, { useState, useContext } from 'react';
 import { injectIntl } from 'react-intl';
-import { ActiveBreakpointContext } from '../../../../breakpoints';
-import ApplicationLoadingOverlay from '../../../../application-loading-overlay';
-import ApplicationBase from '../../../../application-base';
-import NavigationPrompt from '../../../../navigation-prompt';
+import { ActiveBreakpointContext } from '../../../breakpoints';
+import ApplicationLoadingOverlay from '../../../application-loading-overlay';
+import ApplicationBase from '../../../application-base';
+import NavigationPrompt from '../../../navigation-prompt';
 
 const ApplicationContentTest = injectIntl(({ intl }) => {
   const [isLoading, setIsLoading] = useState(false);

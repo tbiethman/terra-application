@@ -1,29 +1,21 @@
 <!-- Logo -->
 <p align="center">
-  <img height="128" width="128" src="https://github.com/cerner/terra-dev-site/raw/master/terra.png" alt="terra logo" />
+  <img height="128" width="128" src="https://github.com/cerner/terra-application/raw/master/terra.png" alt="terra logo" />
 </p>
 
 <!-- Name -->
 <h1 align="center">
-  Terra Dev Site
+  Terra Application
 </h1>
 
-[![NPM version](https://badgen.net/npm/v/terra-dev-site)](https://www.npmjs.org/package/terra-dev-site)
+[![NPM version](https://badgen.net/npm/v/terra-application)](https://www.npmjs.org/package/terra-application)
 [![Cerner OSS](https://badgen.net/badge/Cerner/OSS/blue)](http://engineering.cerner.com/2014/01/cerner-and-open-source/)
-[![License](https://badgen.net/github/license/cerner/terra-dev-site)](https://github.com/cerner/terra-dev-site/blob/master/LICENSE)
-[![Build Status](https://badgen.net/travis/cerner/terra-dev-site)](https://travis-ci.com/cerner/terra-dev-site)
-[![Dependencies status](https://badgen.net/david/dep/cerner/terra-dev-site)](https://david-dm.org/cerner/terra-dev-site)
-[![devDependencies status](https://badgen.net/david/dev/cerner/terra-dev-site)](https://david-dm.org/cerner/terra-dev-site?type=dev)
+[![License](https://badgen.net/github/license/cerner/terra-application)](https://github.com/cerner/terra-application/blob/master/LICENSE)
+[![Build Status](https://badgen.net/travis/cerner/terra-application)](https://travis-ci.com/cerner/terra-application)
+[![Dependencies status](https://badgen.net/david/dep/cerner/terra-application)](https://david-dm.org/cerner/terra-application)
+[![devDependencies status](https://badgen.net/david/dev/cerner/terra-application)](https://david-dm.org/cerner/terra-application?type=dev)
 
-Dynamically builds a site based on site configuration, navigation configuration and page configuration.
-
-The provided webpack plugin includes a call to the generateAppConfig script. The generateAppConfig script builds out static config to the ./dev-site-config/build folder. generateAppConfig also discovers pages based on it's configuration. After the static config has been built webpack continues to run, pulling in the static config, and producing the webpack bundle.
-
-Provides the following default configuration:
-
-* `config/site/site.config.js`
-* `config/site/navigation.config.js`
-* `config/webpack/webpack.config.js`
+A framework to support application development with Terra components.
 
 * [Getting Started](#getting-started)
 * [Versioning](#versioning)

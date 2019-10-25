@@ -19,26 +19,6 @@
   "bugs": {
     "url": "https://github.com/cerner/terra-application/issues"
   },
-  "jest": {
-    "collectCoverageFrom": [
-      "/src/**.js",
-      "/src/**.jsx"
-    ],
-    "setupFiles": [
-      "raf/polyfill",
-      "./jestsetup.js"
-    ],
-    "testMatch": [
-      "**/jest/**/(*.)(spec|test).js?(x)"
-    ],
-    "snapshotSerializers": [
-      "<rootDir>/node_modules/enzyme-to-json/serializer"
-    ],
-    "moduleNameMapper": {
-      "\\.(css|scss)$": "identity-obj-proxy",
-      "github-markdown-css": "identity-obj-proxy"
-    }
-  },
   "browserslist": [
     "extends browserslist-config-terra"
   ],
@@ -68,8 +48,8 @@
     "compile:dev": "webpack",
     "compile:prod": "webpack -p",
     "heroku-postbuild": "npm install --only=dev && npm run compile:prod",
-    "jest": "jest",
-    "jest:coverage": "jest --coverage",
+    "jest": "jest --config jestconfig.js",
+    "jest:coverage": "jest --coverage --config jestconfig.js",
     "lint": "npm run lint:js && npm run lint:scss",
     "lint:js": "eslint --ext .js,.jsx .",
     "lint:scss": "stylelint src/**/*.scss",
@@ -90,6 +70,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.5.8",
+    "react-intl": "^2.9.0",
     "terra-base": "^5.0.0",
     "terra-breakpoints": "^2.0.0",
     "terra-disclosure-manager": "^4.24.0",

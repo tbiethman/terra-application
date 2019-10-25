@@ -1,10 +1,10 @@
 import React from 'react';
 import DocTemplate from 'terra-doc-template';
-import { name } from '../../../../package.json';
+import { name } from '../../../package.json';
 import ReadMe from './ApplicationLoadingOverlay.md';
 
-import ApplicationLoadingOverlayExampleSrc from '!raw-loader!../../../../src/terra-dev-site/doc/example/ApplicationLoadingOverlayExample.jsx';
-import ApplicationLoadingOverlayExample from '../example/ApplicationLoadingOverlayExample';
+import ApplicationLoadingOverlayExampleSrc from '!raw-loader!./example/ApplicationLoadingOverlayExample.jsx';
+import ApplicationLoadingOverlayExample from './example/ApplicationLoadingOverlayExample';
 
 const DocPage = () => (
   <DocTemplate

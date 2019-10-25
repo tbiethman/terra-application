@@ -1,12 +1,11 @@
 import React from 'react';
 import DocTemplate from 'terra-doc-template';
-import { name } from '../../../../package.json';
+import { name } from '../../../package.json';
 import ReadMe from './ApplicationErrorBoundary.md';
 
-import ApplicationErrorBoundarySrc from '!raw-loader!../../../../src/application-error-boundary/ApplicationErrorBoundary.jsx';
-
-import ApplicationErrorBoundaryExampleSrc from '!raw-loader!../../../../src/terra-dev-site/doc/example/ApplicationErrorBoundaryExample.jsx';
-import ApplicationErrorBoundaryExample from '../example/ApplicationErrorBoundaryExample';
+import ApplicationErrorBoundarySrc from '!raw-loader!../../application-error-boundary/ApplicationErrorBoundary.jsx';
+import ApplicationErrorBoundaryExampleSrc from '!raw-loader!./example/ApplicationErrorBoundaryExample.jsx';
+import ApplicationErrorBoundaryExample from './example/ApplicationErrorBoundaryExample';
 
 const DocPage = () => (
   <DocTemplate
