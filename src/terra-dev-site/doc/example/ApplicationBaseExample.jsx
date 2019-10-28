@@ -18,7 +18,7 @@ const ApplicationContentExample = injectIntl(({ intl }) => {
 
   const activeBreakpointExample = (
     <p>
-        Active Breakpoint:
+      Active Breakpoint:
       {' '}
       {activeBreakpoint}
     </p>
@@ -26,7 +26,7 @@ const ApplicationContentExample = injectIntl(({ intl }) => {
 
   const intlExample = (
     <p>
-    Active Locale:
+      Active Locale:
       {' '}
       {intl.locale}
     </p>
@@ -34,7 +34,7 @@ const ApplicationContentExample = injectIntl(({ intl }) => {
 
   const errorBoundaryExample = (
     <p>
-    Render Error:
+      Render Error:
       {' '}
       <button type="button" onClick={() => { setThrowError(true); }}>Throw</button>
     </p>
@@ -47,7 +47,7 @@ const ApplicationContentExample = injectIntl(({ intl }) => {
         {' '}
         <button type="button" onClick={() => { setIsLoading(true); setTimeout(() => { setIsLoading(false); }, 3000); }}>Show</button>
       </p>
-      <ApplicationLoadingOverlay isOpen={isLoading} message="Testing ApplicationBase's loading overlay" />
+      <ApplicationLoadingOverlay isOpen={isLoading} message="Testing ApplicationBase's loading overlay" backgroundStyle="light" />
     </>
   );
 
@@ -79,10 +79,10 @@ const ApplicationContentExample = injectIntl(({ intl }) => {
   );
 });
 
-const ApplicationBaseExample = () => (
-  <ApplicationBase locale="en-US">
+const ApplicationBaseExample = injectIntl(({ intl }) => (
+  <ApplicationBase locale={intl.locale}>
     <ApplicationContentExample />
   </ApplicationBase>
-);
+));
 
 export default ApplicationBaseExample;
