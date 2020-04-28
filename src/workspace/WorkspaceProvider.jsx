@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import WorkSpaceContext from './WorkSpaceContext';
+import WorkspaceContext from './WorkspaceContext';
 
 const propTypes = {
   /**
-   * The component(s) that will be wrapped by `<WorkSpaceProvider.Provider />`.
+   * The component(s) that will be wrapped by `<WorkspaceContext.Provider />`.
    */
   children: PropTypes.node,
   callback: PropTypes.func.isRequired,
 };
 
-WorkSpaceProvider = ({
+WorkspaceProvider = ({
   children,
   callback,
   ...customProps
@@ -22,12 +22,12 @@ WorkSpaceProvider = ({
   };
 
   return (
-    <WorkSpaceContext.Provider value={{ presentWorkSpace }}>
+    <WorkspaceContext.Provider value={{ presentWorkSpace }}>
       {children}
-    </WorkSpaceContext.Provider>
+    </WorkspaceContext.Provider>
   );
 };
 
-WorkSpaceProvider.propTypes = propTypes;
+WorkspaceProvider.propTypes = propTypes;
 
-export default WorkSpaceProvider;
+export default WorkspaceProvider;
