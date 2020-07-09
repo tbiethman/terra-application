@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///lib/terra-dev-site/doc/application/reference.1/components/example/ApplicationErrorBoundaryExample.module.scss"],"names":[],"mappings":"AAAA,yDAEI,YAAa,CACb,UAAW","file":"55-3c685cd2f1f18d7d4ff8.css","sourcesContent":[":local {\n  .example {\n    height: 30rem;\n    width: 100%;\n  }\n}\n"]}

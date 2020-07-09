@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[74],{933:function(e,t,n){"use strict";var l=n(12);Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o=l(n(0)),a=n(186),u=function(){var e=(0,o.useContext)(a.ApplicationIntlContext);return o.default.createElement("div",null,"locale: ",e.locale)};t.default=u}}]);
-//# sourceMappingURL=74-8aa863fbf0ff848af062.js.map
