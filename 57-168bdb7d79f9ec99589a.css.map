@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///lib/terra-dev-site/doc/application/reference.1/components/example/ApplicationNavigationExample.module.scss"],"names":[],"mappings":"AAAA,gEAEI,YAAa,CAFjB,iEAMI,YAAa","file":"57-168bdb7d79f9ec99589a.css","sourcesContent":[":local {\n  .example-container {\n    height: 400px;\n  }\n\n  .page-content {\n    padding: 1rem;\n  }\n}\n"]}
