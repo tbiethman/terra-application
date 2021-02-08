@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[38],{801:function(e,n,a){"use strict";a.r(n);var t=a(0),l=a.n(t),c=a(7);n.default=function(){return l.a.createElement(c.c,null,l.a.createElement(c.b,null,l.a.createElement("p",null,"This content is dynamically loaded using React.lazy/Suspense.")))}}}]);
