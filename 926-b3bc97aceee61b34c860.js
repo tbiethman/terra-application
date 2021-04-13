@@ -1,0 +1,1 @@
+(self.webpackChunk_cerner_terra_application=self.webpackChunk_cerner_terra_application||[]).push([[926],{88926:function(e,n,t){"use strict";t.r(n);var a=t(67294),l=t(62668);n.default=function(){return a.createElement(l.JG,null,a.createElement(l.Zb,null,a.createElement("p",null,"This content is dynamically loaded using React.lazy/Suspense.")))}}}]);
